@@ -1,0 +1,22 @@
+.footer{
+  background-color: #2C3E50;
+  padding: 80px;
+}
+.un-footer{
+  padding: 10px;
+  text-align: center;
+  background-color: #1A252F;
+  color: white;
+}
+.icon{
+  margin-right: 5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: white 1px solid;
+  padding: 10px;
+  text-align: center;
+}
+.info{
+  padding: 10px;
+}

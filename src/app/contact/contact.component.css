@@ -1,0 +1,26 @@
+.about{
+  margin-top: 86px;
+  padding: 20px;
+}
+.line{
+  background-color: #2C3E50;
+  width: 80px;
+  height: 4px;
+}
+h2{
+  font-size: 40px;
+  color: #2C3E50;
+  text-align: center;
+}
+i.star{
+  color: #2C3E50;
+}
+.form-control:focus{
+  box-shadow: 0 0 0 0 transparent !important;
+}
+.btn{
+  background-color: #16A186;
+}
+label{
+  color: #16A186;
+}

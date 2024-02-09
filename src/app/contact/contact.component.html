@@ -1,0 +1,56 @@
+<section
+  class="about d-flex justify-content-center align-items-center flex-column"
+>
+  <h2 class="fw-bold pt-4 mb-2">CONATCT SECTION</h2>
+  <div class="mb-3 d-flex justify-content-center align-items-center">
+    <div class="line me-3"></div>
+    <i class="fa-solid fa-star star position-relative"></i>
+    <div class="line ms-3"></div>
+  </div>
+  <div class="form w-50 p-3 mx-auto mt-5">
+    <label *ngIf="dataName == ''; else name"></label>
+    <ng-template #name><label for="userName">userName :</label></ng-template>
+    <input
+      [(ngModel)]="dataName"
+      type="text"
+      id="userName"
+      placeholder="userName"
+      class="form-control border-0 border-bottom py-3"
+    />
+    <label *ngIf="dataAge == ''; else age"></label>
+    <ng-template #age
+      ><label for="userAge" class="mt-4">userAge :</label></ng-template
+    >
+    <input
+      [(ngModel)]="dataAge"
+      type="text"
+      id="userAge"
+      placeholder="userAge"
+      class="form-control border-0 border-bottom py-3"
+    />
+    <label *ngIf="dataEmail == ''; else email"></label>
+    <ng-template #email
+      ><label class="mt-4" for="userEmail">userEmail :</label></ng-template
+    >
+
+    <input
+      [(ngModel)]="dataEmail"
+      id="userEmail"
+      type="text"
+      placeholder="userEmail"
+      class="form-control border-0 border-bottom py-3"
+    />
+    <label *ngIf="datapass == ''; else pass"></label>
+    <ng-template #pass
+      ><label class="mt-4" for="userpass">userPassword :</label></ng-template
+    >
+    <input
+      [(ngModel)]="datapass"
+      id="userpass"
+      type="text"
+      placeholder="userPassword"
+      class="form-control border-0 border-bottom py-3"
+    />
+    <button class="btn mt-4 text-white">send Message</button>
+  </div>
+</section>

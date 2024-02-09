@@ -1,0 +1,6 @@
+.navbar{
+  background-color: #2C3E50;
+  z-index: 99999;
+  top: 0;
+  transition: height .5s;
+}

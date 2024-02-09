@@ -1,0 +1,13 @@
+.about{
+  margin-top: 86px;
+  background-color: #1ABC9C;
+  padding: 155px;
+}
+.line{
+  background-color: white;
+  width: 80px;
+  height: 4px;
+}
+h2{
+  font-size: 40px;
+}

@@ -1,0 +1,56 @@
+.about{
+  margin-top: 86px;
+  padding: 20px;
+}
+.line{
+  background-color: #2C3E50;
+  width: 80px;
+  height: 4px;
+}
+h2{
+  font-size: 40px;
+  color: #2C3E50;
+  text-align: center;
+}
+i.star{
+  color: #2C3E50;
+}
+.layer{
+  background-color: #239882;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  opacity: 0;
+  transition: all .5s;
+  width: 100%;
+}
+.item:hover .layer{
+top: 0;
+opacity: .9;
+}
+.light-container{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0 , .5);
+  z-index: 9999 ;
+}
+.light-container .light-box{
+  width: 600px;
+  height: 400px;
+  margin-top: 100px;
+  background-image: url(../../assets/image/poert1.png);
+  background-size: 100% 100%;
+}
+.fa-circle-xmark{
+  cursor: pointer;
+}
+
